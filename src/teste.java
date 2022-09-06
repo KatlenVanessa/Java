@@ -1,6 +1,10 @@
 public class teste {
     public static void main(String[] args) {
-        System.out.printf("%s%s","Olá pessoal", "Aqui é o Fábio");
+        int i;
+        for (i = 0; i < 10; i++) {
+            double rand = Math.random() * 2;
+            System.out.printf("\n%.0f",rand);
+        }
     }
-    
+
 }

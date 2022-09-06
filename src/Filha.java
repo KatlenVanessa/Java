@@ -6,7 +6,7 @@ public class Filha extends Pai {
     this.nomeFilha = nomeFilha;
     //System.out.println("Metodo construtor da classe Filha");
 
-    System.out.println("O nome da  filha é " + this.nomeFilha +
+    System.out.println("O nome da filha é " + this.nomeFilha +
     " e o do pai é " + nomePai);
     } 
     }   
