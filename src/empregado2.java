@@ -15,7 +15,7 @@ public class empregado2 {
         System.out.printf("O funcionário %s, de número %d recebe %.2f por mês", getNome(), getID(), getSalario());
     }
 
-    //Just assigns the arguments on the right parameters
+    //Just assigns the arguments on the right parameters. Used on the constructor
 
     public void setNome(String nome) {
         this.nome = nome;
@@ -29,7 +29,7 @@ public class empregado2 {
         this.salario = salario;
     }
 
-    //Just returns the parameters
+    //Just returns the parameters on the exibir method
     public String getNome() {
         return nome;
     }
