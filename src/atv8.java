@@ -6,8 +6,7 @@ public class atv8 {
         System.out.println("\nNumero randomico de " + min + " ate " + max + ":\n");
 
         // Math.random(); Generate random number from 0 to 1 (double)
-        // range+min: generate numbers between max and min, including
-        // them;
+        // range+min: generate numbers between max and min, including them;
         // (int) Force to convert into an integer
         int range = max - min + 1;
         int random_num = (int) (Math.random() * range) + min;
