@@ -1,4 +1,4 @@
-package conta_banc_caixa_elet;
+package conta_bancaria_caixa_simples;
 
 import java.util.Scanner;
 
